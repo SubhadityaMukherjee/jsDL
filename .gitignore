@@ -102,3 +102,22 @@ dist
 
 # TernJS port file
 .tern-port
+*.pth
+logs/*
+runs
+runs/*
+logs
+lightning_logs/*
+lightning_logs
+__pycache__/*
+*.pyc
+*.pt
+*.mp4
+*.png
+*.jpg
+*.pkl
+*.ckpt
+*.yaml
+*.csv
+tags
+*.txt
