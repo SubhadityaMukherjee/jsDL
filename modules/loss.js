@@ -1,4 +1,4 @@
-const { mean, pow, subtract, sqrt, zeros } = require('./math')
+const { mean, subtract, sqrt, zeros } = require('./math')
 const MSE = (output, y) =>{
     return mean(subtract(output,y).map(n => n *n));
 }
@@ -6,7 +6,6 @@ const RMSE = (output, y) =>{
     return sqrt( mean(subtract(output,y).map(n => n *n)));
 }
 
-console.log(zeros(1,10))
 
 // const y = [
 //   0.9780449271202087, 0.01590355671942234, 0.0019390975357964635,
